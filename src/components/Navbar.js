@@ -31,7 +31,7 @@ function Navbar() {
                             color: "#fff",
                         }}
                     >
-                        Introducing ChatGPT research release {"  "}
+                        Introducing ICE research release {"  "}
                         <Button href="#">
                             Try <ArrowOutwardIcon fontSize="14px" />
                         </Button>
