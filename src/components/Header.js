@@ -10,9 +10,9 @@ function Header() {
                 sx={{
                     position: "relative",
                     paddingBottom: "56.25%",
-                    width: "100%",
+
                     height: "100vh",
-                    minHeight: "100vh",
+
                     overflow: "hidden",
                     background: "rgba(0,0,0,0.1)",
                 }}
@@ -27,7 +27,7 @@ function Header() {
                         top: "0",
                         left: "0",
                         width: "auto",
-                        minHeight: "100vh",
+
                         height: "100vh",
                         zIndex: "-1",
                     }}
