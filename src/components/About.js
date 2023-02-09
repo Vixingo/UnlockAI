@@ -15,8 +15,11 @@ function About() {
                 className="About"
                 sx={{
                     backgroundImage: "url(/img/earth.png)",
-                    paddingBottom: "430px",
+                    paddingBottom: "350px",
                     pt: "88px",
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "top center",
+                    backgroundSize: "cover",
                 }}
             >
                 <Container maxWidth="xl">
