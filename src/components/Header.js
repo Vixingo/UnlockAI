@@ -26,9 +26,9 @@ function Header() {
                         position: "absolute",
                         top: "0",
                         left: "0",
-                        width: "auto",
+                        width: "100%",
 
-                        height: "100vh",
+                        minHeight: "100vh",
                         zIndex: "-1",
                     }}
                 />

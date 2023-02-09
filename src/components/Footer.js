@@ -32,6 +32,7 @@ function Footer() {
             <section className="Footer">
                 <Container maxWidth={"xl"}>
                     <Grid
+                        spacing={2}
                         container
                         alignItems={"center"}
                         sx={{
@@ -41,8 +42,8 @@ function Footer() {
                         }}
                     >
                         {" "}
-                        <Grid item xs={4}>
-                            <Box>
+                        <Grid item xs={12} lg={4}>
+                            <Box textAlign={{ xs: "center", lg: "left" }}>
                                 <img
                                     src="/img/logo.png"
                                     alt=""
@@ -50,7 +51,7 @@ function Footer() {
                                 />
                             </Box>
                         </Grid>
-                        <Grid item xs={4}>
+                        <Grid item xs={12} lg={4}>
                             <Box>
                                 <Stack
                                     flexDirection={"row"}
@@ -71,10 +72,13 @@ function Footer() {
                                 </Stack>
                             </Box>
                         </Grid>
-                        <Grid item xs={4}>
+                        <Grid item xs={12} lg={4}>
                             <Stack
                                 flexDirection={"row"}
-                                justifyContent={"flex-end"}
+                                justifyContent={{
+                                    lg: "flex-end",
+                                    xs: "center",
+                                }}
                             >
                                 <IconButton>
                                     <FacebookOutlinedIcon />
