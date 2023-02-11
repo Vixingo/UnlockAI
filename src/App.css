@@ -2,10 +2,61 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto";
 }
 a {
     text-decoration: none;
 }
 body {
     background-color: #000;
+}
+
+.Footer {
+    color: #fff;
+}
+.row {
+    display: flex;
+    justify-content: flex-start;
+}
+.col-md-3 {
+    width: 25%;
+    padding: 20px;
+}
+.Footer ul li {
+    list-style: none;
+    margin-bottom: 5px;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    transition: 0.2s;
+}
+li:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+.Footer h2 {
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.footlink {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copy a {
+    color: #fff;
+}
+
+.icons {
+    margin-top: 10px;
+}
+.icons a {
+    font-size: 26px;
+    padding: 10px;
 }
