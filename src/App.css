@@ -17,6 +17,7 @@ body {
 .row {
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 .col-md-3 {
     width: 25%;
