@@ -61,3 +61,12 @@ li:hover {
     font-size: 26px;
     padding: 10px;
 }
+
+@media (max-width: 600px) {
+    .col-md-3 {
+        width: 50%;
+    }
+    .copy {
+        flex-direction: column-reverse;
+    }
+}

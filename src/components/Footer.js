@@ -79,7 +79,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className="copy">
-                        <div className="footlink">
+                        <div className="">
                             <a href="#">UnlockAI © 2015-2023</a>{" "}
                             <a href="#">Privacy Policy</a>{" "}
                             <a href="#">Terms of Use</a>
