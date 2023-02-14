@@ -68,5 +68,6 @@ li:hover {
     }
     .copy {
         flex-direction: column-reverse;
+        font-size: 14px;
     }
 }
